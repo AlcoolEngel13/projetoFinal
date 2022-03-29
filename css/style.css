@@ -1,0 +1,299 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Menu */
+
+.nav {
+    height: 8vh;
+    border-bottom: 3px solid rgb(59, 58, 58);;
+}
+
+.nav .logo {
+    width: 30vw;
+    float: left;
+    height: 100%;
+    margin: 0 0 0 30px;
+}
+
+.nav .logo h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(59, 58, 58);
+}
+
+.nav .navbar {
+    width: 60vw;
+    float: left;
+    height: 100%;
+}
+
+.nav .navbar ul {
+    float: right;
+    line-height: 45px;
+}
+
+.nav .navbar ul li {
+    display: inline-block;
+    margin: 0 25px 0 0;
+}
+
+.nav .navbar ul li a {
+    text-decoration: none;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(59, 58, 58);;
+}
+
+.nav .navbar ul li a:hover {
+    background-color: rgb(59, 58, 58);
+    color: #f9f9f9;
+    transition: 0.5s;
+}
+
+/* Banner */
+
+.banner img{
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Main */
+
+.main {
+    width: 80vw;
+    min-height: 70vh;
+    margin: 0 auto;
+    display: block;
+}
+
+.main h1 {
+    padding-top: 4px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(59, 58, 58);
+}
+
+.main p {
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(59, 58, 58);;
+}
+
+/* Footer */
+
+#direito {
+    color:#f9f9f9;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 240px;
+    background-color: rgb(15, 13, 13);
+}
+
+.networks {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.networks ul {
+    padding: 44px;
+    list-style: none;
+}
+
+.networks img {
+    width: 25px;
+}
+
+.networks ul a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.networks ul a:hover {
+    color: rgb(156, 144, 144);
+    transition: 0.5s;
+}
+
+/* Main Car */
+
+.main-car {
+    height: 300px;
+}
+
+
+
+.main-car .car img {
+    width: 360px;
+    height: 270px;
+    padding: 15px;
+    float: left;
+}
+
+.desc {
+    width: 65%;
+    height: 80%;
+    border: 1px solid black;
+    float: left;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: rgb(59, 58, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+}
+
+/* Formulário */
+
+.main-form {
+    width: 80vw;
+    height: 850px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.main-form h2, .main-form p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    color: #f9f9f9;
+    font-weight: bold;
+    color: rgb(59, 58, 58);
+}
+
+.main-form p {
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.main-form form {
+    border: 1px solid black;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    padding: 50px;
+    background-color: rgb(59, 58, 58);
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-form textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.main-form input {
+    width: 100%;
+}
+
+/* Menu secudario */
+
+.navbar-secudaria ul {
+    position: relative;
+    left: -30px;
+    top: 12px;
+    display: none;
+}
+
+.navbar-secudaria ul li {
+    display: inline-block;
+}
+
+.navbar-secudaria ul li a {
+    font-size: 18px;
+    color: rgb(59, 58, 58);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar-secudaria ul li a:hover {
+    background-color: rgb(59, 58, 58);
+    color: #f9f9f9;
+    transition: 0.5s;
+}
+
+#enviar {
+    border-radius: 25px;
+    padding: 20px 20px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border: 0;
+}
+
+#enviar:hover {
+    color: #f9f9f9;
+    background-color: rgb(109, 104, 104);
+    transition: 0.5s;
+}
+
+/* Responsive */
+
+@media (max-width: 650px) {
+    .main {
+        width: 100%;
+    }
+
+    .logo h1 {
+        display: block;
+        width: 100vw;
+        float: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar-secudaria ul{
+        display: block;
+    }
+
+    .banner img {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .main-car {
+        margin-top: 55px;
+    }
+
+    .main-car img {
+        float: none;
+        padding: 0;
+    }
+
+    .desc {
+        width: 100%;
+        height: 300px;
+        float: none;
+        display: block;
+    }
+}
+
+@media (max-width: 1210px) {
+    .main-car .car img {
+        width: 20%;
+    }
+
+    .desc {
+        width: 70%;
+        font-size: 0.9rem;
+    }
+}
